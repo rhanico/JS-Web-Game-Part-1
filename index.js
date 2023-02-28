@@ -1,5 +1,5 @@
 function newImage(){
-    
+
 }
 
 
@@ -47,3 +47,31 @@ well.style.position = 'fixed'
 well.style.left = '500px'
 well.style.bottom = '425px'
 document.body.append(well)
+
+let shield = document.createElement('img')
+shield.src = 'assets/shield.png'
+shield.style.position = 'fixed'
+shield.style.left = '165px'
+shield.style.bottom = '185px'
+document.body.append(shield)
+
+
+let staff = document.createElement('img')
+staff.src = 'assets/staff.png'
+staff.style.position = 'fixed'
+staff.style.left = '600px'
+staff.style.bottom = '100px'
+document.body.append(staff)
+
+
+
+let sword = document.createElement('img')
+sword.src = 'assets/sword.png'
+sword.position = 'fixed'
+sword.left = '500px'
+sword.bottom = '405px'
+document.body.append(sword)
+
+sword.addEventListener('click', function(){
+    sword.remove()
+})
